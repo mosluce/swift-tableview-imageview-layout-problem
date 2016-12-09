@@ -13,6 +13,7 @@ class TextTableViewCell: UITableViewCell {
     var item: String! {
         didSet{
             label.text = item
+            label.sizeToFit()
         }
     }
     

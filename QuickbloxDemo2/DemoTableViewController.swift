@@ -32,7 +32,7 @@ class DemoTableViewController: UIViewController {
         self.tableView.dataSource = self
         self.tableView.register(cellType: TextTableViewCell.self)
         self.tableView.register(cellType: ImageTableViewCell.self)
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 1000
         
         self.messageField.delegate = self
         self.messageField.enablesReturnKeyAutomatically = true
@@ -67,12 +67,27 @@ class DemoTableViewController: UIViewController {
             if title == "Send" {
                 self.data.append(self.messageField.text ?? "")
                 self.messageField.text = nil
+                self.insertNewRow()
                 self.didMessageChange(self.messageField)
-                self.tableView.insertRows(at: [IndexPath(row: data.count - 1, section: 0)], with: .bottom)
             }
             
             if title == "Share" {
                 self.presentImagePicker()
+            }
+        }
+    }
+    
+    func insertNewRow() {
+        self.tableView.insertRows(at: [IndexPath(row: data.count - 1, section: 0)], with: .none)
+        self.scrollToBottom()
+    }
+    
+    func scrollToBottom() {
+        if data.count > 0 {
+            let indexPath = IndexPath(row: data.count - 1, section: 0)
+            let cell = self.tableView.cellForRow(at: indexPath)
+            if (cell?.frame.origin.y ?? 0) >= self.tableView.contentSize.height {
+                self.tableView.scrollToRow(at: IndexPath(row: data.count - 1, section: 0), at: .bottom, animated: false)
             }
         }
     }
@@ -173,7 +188,7 @@ extension DemoTableViewController: UIImagePickerControllerDelegate, UINavigation
         
         if let image = (info[UIImagePickerControllerOriginalImage] as? UIImage)?.resize(max: 512) {
             self.data.append(image)
-            self.tableView.insertRows(at: [IndexPath(row: data.count - 1, section: 0)], with: .bottom)
+            self.insertNewRow()
         }
     }
 }
@@ -188,6 +203,8 @@ extension DemoTableViewController {
             self.keyboardHeightConstraint.constant = frame.height
             self.view.layoutIfNeeded()
         })
+        
+        self.scrollToBottom()
     }
     
     func willKeyboardHide(_ notification: Notification) {
