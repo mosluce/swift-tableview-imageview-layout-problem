@@ -26,7 +26,7 @@ extension UIImage {
             image = UIGraphicsGetImageFromCurrentImageContext()
             UIGraphicsEndImageContext()
         } else {
-            let scale = max / self.size.width
+            let scale = max / self.size.height
             let width = self.size.width * scale
             UIGraphicsBeginImageContext(CGSize(width: width, height: max))
             draw(in: CGRect(x: 0, y: 0, width: width, height: max))

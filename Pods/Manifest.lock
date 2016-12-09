@@ -1,0 +1,20 @@
+PODS:
+  - PermissionScope (1.1.1)
+  - QuickBlox (2.9)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - PermissionScope
+  - QuickBlox (~> 2.9)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  QuickBlox: 4e071921a5fb4b0ecde1f66c7ce04a70ededc90c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: e45b9ddd1c2f24d883a8bb5a9cfcd55c5672923e
+
+COCOAPODS: 1.2.0.beta.1

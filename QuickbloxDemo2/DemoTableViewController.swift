@@ -67,6 +67,7 @@ class DemoTableViewController: UIViewController {
             if title == "Send" {
                 self.data.append(self.messageField.text ?? "")
                 self.messageField.text = nil
+                self.didMessageChange(self.messageField)
                 self.tableView.insertRows(at: [IndexPath(row: data.count - 1, section: 0)], with: .bottom)
             }
             
@@ -84,6 +85,7 @@ class DemoTableViewController: UIViewController {
             .addAction(title: "照片", style: .default, handler: {[unowned self] (_) in
                 self.presentPhotoLibrary()
             })
+            .addAction(title: "取消")
             .present()
     }
     
