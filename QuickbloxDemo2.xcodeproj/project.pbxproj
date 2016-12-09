@@ -12,9 +12,30 @@
 		441932AB1DF9B40300F6863E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441932A91DF9B40300F6863E /* Main.storyboard */; };
 		441932AD1DF9B40300F6863E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441932AC1DF9B40300F6863E /* Assets.xcassets */; };
 		441932B01DF9B40300F6863E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441932AE1DF9B40300F6863E /* LaunchScreen.storyboard */; };
+		441932BB1DFA938B00F6863E /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932BA1DFA938B00F6863E /* DemoTableViewController.swift */; };
+		441932CC1DFA942D00F6863E /* DesignResizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932BF1DFA942D00F6863E /* DesignResizable.swift */; };
+		441932CD1DFA942D00F6863E /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C01DFA942D00F6863E /* NSObject.swift */; };
+		441932CE1DFA942D00F6863E /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C11DFA942D00F6863E /* UIAlertController.swift */; };
+		441932CF1DFA942D00F6863E /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C21DFA942D00F6863E /* UIApplication.swift */; };
+		441932D01DFA942D00F6863E /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C31DFA942D00F6863E /* UICollectionView.swift */; };
+		441932D11DFA942D00F6863E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C41DFA942D00F6863E /* UIColor.swift */; };
+		441932D21DFA942D00F6863E /* UIFont+DesignResizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C51DFA942D00F6863E /* UIFont+DesignResizable.swift */; };
+		441932D31DFA942D00F6863E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C61DFA942D00F6863E /* UINavigationController.swift */; };
+		441932D41DFA942D00F6863E /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C71DFA942D00F6863E /* UIStoryboard.swift */; };
+		441932D51DFA942D00F6863E /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C81DFA942D00F6863E /* UITableView.swift */; };
+		441932D61DFA942D00F6863E /* UIView+DesignResizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932C91DFA942D00F6863E /* UIView+DesignResizable.swift */; };
+		441932D71DFA942D00F6863E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932CA1DFA942D00F6863E /* UIView.swift */; };
+		441932D81DFA942D00F6863E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932CB1DFA942D00F6863E /* UIViewController.swift */; };
+		441932E01DFA9D2D00F6863E /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932DE1DFA9D2D00F6863E /* ImageTableViewCell.swift */; };
+		441932E11DFA9D2D00F6863E /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441932DF1DFA9D2D00F6863E /* ImageTableViewCell.xib */; };
+		441932E41DFA9D3600F6863E /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932E21DFA9D3600F6863E /* TextTableViewCell.swift */; };
+		441932E51DFA9D3600F6863E /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441932E31DFA9D3600F6863E /* TextTableViewCell.xib */; };
+		441932E71DFAA2E800F6863E /* UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441932E61DFAA2E800F6863E /* UIimage.swift */; };
+		C3E1EDE05E49202ED8331CAF /* Pods_QuickbloxDemo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD23DDD9F0DFBB28662F72E /* Pods_QuickbloxDemo2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FDA27D2AC165CBD0DD38D5 /* Pods-QuickbloxDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickbloxDemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickbloxDemo2/Pods-QuickbloxDemo2.release.xcconfig"; sourceTree = "<group>"; };
 		441932A21DF9B40300F6863E /* QuickbloxDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickbloxDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441932A51DF9B40300F6863E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441932A71DF9B40300F6863E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,28 @@
 		441932AC1DF9B40300F6863E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441932AF1DF9B40300F6863E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441932B11DF9B40300F6863E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441932B71DF9B4E900F6863E /* QuickbloxDemo2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickbloxDemo2-Bridging-Header.h"; sourceTree = "<group>"; };
+		441932BA1DFA938B00F6863E /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		441932BF1DFA942D00F6863E /* DesignResizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignResizable.swift; sourceTree = "<group>"; };
+		441932C01DFA942D00F6863E /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		441932C11DFA942D00F6863E /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		441932C21DFA942D00F6863E /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		441932C31DFA942D00F6863E /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		441932C41DFA942D00F6863E /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		441932C51DFA942D00F6863E /* UIFont+DesignResizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+DesignResizable.swift"; sourceTree = "<group>"; };
+		441932C61DFA942D00F6863E /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		441932C71DFA942D00F6863E /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		441932C81DFA942D00F6863E /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		441932C91DFA942D00F6863E /* UIView+DesignResizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DesignResizable.swift"; sourceTree = "<group>"; };
+		441932CA1DFA942D00F6863E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		441932CB1DFA942D00F6863E /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		441932DE1DFA9D2D00F6863E /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		441932DF1DFA9D2D00F6863E /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		441932E21DFA9D3600F6863E /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		441932E31DFA9D3600F6863E /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		441932E61DFAA2E800F6863E /* UIimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIimage.swift; sourceTree = "<group>"; };
+		AA503963B811A99DA8EB18F1 /* Pods-QuickbloxDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickbloxDemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickbloxDemo2/Pods-QuickbloxDemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD23DDD9F0DFBB28662F72E /* Pods_QuickbloxDemo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickbloxDemo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E1EDE05E49202ED8331CAF /* Pods_QuickbloxDemo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,8 @@
 			children = (
 				441932A41DF9B40300F6863E /* QuickbloxDemo2 */,
 				441932A31DF9B40300F6863E /* Products */,
+				C4D6CCB22D3EF47FF36B46E6 /* Pods */,
+				CD494FC5C5577D7C13683BC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,67 @@
 		441932A41DF9B40300F6863E /* QuickbloxDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				441932D91DFA9D0700F6863E /* Components */,
+				441932BE1DFA942D00F6863E /* Extensions */,
 				441932A51DF9B40300F6863E /* AppDelegate.swift */,
 				441932A71DF9B40300F6863E /* ViewController.swift */,
+				441932BA1DFA938B00F6863E /* DemoTableViewController.swift */,
 				441932A91DF9B40300F6863E /* Main.storyboard */,
-				441932AC1DF9B40300F6863E /* Assets.xcassets */,
 				441932AE1DF9B40300F6863E /* LaunchScreen.storyboard */,
+				441932AC1DF9B40300F6863E /* Assets.xcassets */,
 				441932B11DF9B40300F6863E /* Info.plist */,
+				441932B71DF9B4E900F6863E /* QuickbloxDemo2-Bridging-Header.h */,
 			);
 			path = QuickbloxDemo2;
+			sourceTree = "<group>";
+		};
+		441932BE1DFA942D00F6863E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				441932E61DFAA2E800F6863E /* UIimage.swift */,
+				441932BF1DFA942D00F6863E /* DesignResizable.swift */,
+				441932C01DFA942D00F6863E /* NSObject.swift */,
+				441932C11DFA942D00F6863E /* UIAlertController.swift */,
+				441932C21DFA942D00F6863E /* UIApplication.swift */,
+				441932C31DFA942D00F6863E /* UICollectionView.swift */,
+				441932C41DFA942D00F6863E /* UIColor.swift */,
+				441932C51DFA942D00F6863E /* UIFont+DesignResizable.swift */,
+				441932C61DFA942D00F6863E /* UINavigationController.swift */,
+				441932C71DFA942D00F6863E /* UIStoryboard.swift */,
+				441932C81DFA942D00F6863E /* UITableView.swift */,
+				441932C91DFA942D00F6863E /* UIView+DesignResizable.swift */,
+				441932CA1DFA942D00F6863E /* UIView.swift */,
+				441932CB1DFA942D00F6863E /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		441932D91DFA9D0700F6863E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				441932DE1DFA9D2D00F6863E /* ImageTableViewCell.swift */,
+				441932DF1DFA9D2D00F6863E /* ImageTableViewCell.xib */,
+				441932E21DFA9D3600F6863E /* TextTableViewCell.swift */,
+				441932E31DFA9D3600F6863E /* TextTableViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C4D6CCB22D3EF47FF36B46E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA503963B811A99DA8EB18F1 /* Pods-QuickbloxDemo2.debug.xcconfig */,
+				07FDA27D2AC165CBD0DD38D5 /* Pods-QuickbloxDemo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD494FC5C5577D7C13683BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23DDD9F0DFBB28662F72E /* Pods_QuickbloxDemo2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +170,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441932B41DF9B40300F6863E /* Build configuration list for PBXNativeTarget "QuickbloxDemo2" */;
 			buildPhases = (
+				42B745F8373783C263C367E1 /* [CP] Check Pods Manifest.lock */,
 				4419329E1DF9B40300F6863E /* Sources */,
 				4419329F1DF9B40300F6863E /* Frameworks */,
 				441932A01DF9B40300F6863E /* Resources */,
+				91044AA055065B52236EC9AF /* [CP] Embed Pods Frameworks */,
+				D7862BD34A4D434D893B7B00 /* [CP] Copy Pods Resources */,
+				441932E81DFAA8F000F6863E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -97,6 +200,7 @@
 					441932A11DF9B40300F6863E = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 8E5H4JDK8B;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				441932B01DF9B40300F6863E /* LaunchScreen.storyboard in Resources */,
+				441932E51DFA9D3600F6863E /* TextTableViewCell.xib in Resources */,
+				441932E11DFA9D2D00F6863E /* ImageTableViewCell.xib in Resources */,
 				441932AD1DF9B40300F6863E /* Assets.xcassets in Resources */,
 				441932AB1DF9B40300F6863E /* Main.storyboard in Resources */,
 			);
@@ -132,13 +238,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42B745F8373783C263C367E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		441932E81DFAA8F000F6863E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quickblox.framework/strip-framework.sh\"";
+		};
+		91044AA055065B52236EC9AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickbloxDemo2/Pods-QuickbloxDemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7862BD34A4D434D893B7B00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickbloxDemo2/Pods-QuickbloxDemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4419329E1DF9B40300F6863E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441932E41DFA9D3600F6863E /* TextTableViewCell.swift in Sources */,
+				441932D61DFA942D00F6863E /* UIView+DesignResizable.swift in Sources */,
+				441932D41DFA942D00F6863E /* UIStoryboard.swift in Sources */,
 				441932A81DF9B40300F6863E /* ViewController.swift in Sources */,
+				441932CF1DFA942D00F6863E /* UIApplication.swift in Sources */,
+				441932D31DFA942D00F6863E /* UINavigationController.swift in Sources */,
 				441932A61DF9B40300F6863E /* AppDelegate.swift in Sources */,
+				441932CD1DFA942D00F6863E /* NSObject.swift in Sources */,
+				441932D21DFA942D00F6863E /* UIFont+DesignResizable.swift in Sources */,
+				441932D11DFA942D00F6863E /* UIColor.swift in Sources */,
+				441932BB1DFA938B00F6863E /* DemoTableViewController.swift in Sources */,
+				441932D71DFA942D00F6863E /* UIView.swift in Sources */,
+				441932CE1DFA942D00F6863E /* UIAlertController.swift in Sources */,
+				441932D51DFA942D00F6863E /* UITableView.swift in Sources */,
+				441932E71DFAA2E800F6863E /* UIimage.swift in Sources */,
+				441932D01DFA942D00F6863E /* UICollectionView.swift in Sources */,
+				441932D81DFA942D00F6863E /* UIViewController.swift in Sources */,
+				441932E01DFA9D2D00F6863E /* ImageTableViewCell.swift in Sources */,
+				441932CC1DFA942D00F6863E /* DesignResizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +441,35 @@
 		};
 		441932B51DF9B40300F6863E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA503963B811A99DA8EB18F1 /* Pods-QuickbloxDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
 				INFOPLIST_FILE = QuickbloxDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.QuickbloxDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickbloxDemo2/QuickbloxDemo2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		441932B61DF9B40300F6863E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FDA27D2AC165CBD0DD38D5 /* Pods-QuickbloxDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
 				INFOPLIST_FILE = QuickbloxDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.QuickbloxDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickbloxDemo2/QuickbloxDemo2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +493,7 @@
 				441932B61DF9B40300F6863E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
